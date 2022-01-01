@@ -6,12 +6,163 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LoftSChool</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/addition.css">
 </head>
 
 <body>
-  <div class="container"></div>
+  <div class="wrapper">
+    <div class="wrapper__content">
+      <header class="header">
+        <div class="container header--flex">
+          <div class="header__left">
+            <a href="#" class="header__logo">
+              <img src="images/logo.png" alt="Logo">
+            </a>
+          </div>
+
+          <div class="header__right">
+            <a href="#" class="header__right__phone">8 (800) 00-392-10</a>
+            <p class="header__right__phone-info">График работы</p>
+            <div class="header__right__info">
+              <p class="header__right__info-work">пн-вс: 09:00-20:00</p>
+              <p class="header__right__info-dinner">обед: 14:00-14:30</p>
+            </div>
+          </div>
+        </div>
+
+      </header>
+
+      <div class="container">
+
+        <div class="features">
+          <aside class="aside-block">
+            <nav class="navbar">
+              <ul>
+                <li><a href="#" class="navbar__links links-1">Главная</a></li>
+                <li><a href="#" class="navbar__links links-2">Отзывы</a></li>
+                <li><a href="#" class="navbar__links links-3">Тарифы</a></li>
+              </ul>
+            </nav>
+          </aside>
+
+          <section class="features-block">
+            <div class="features__info">
+              <h1 class="features__title">Особенности </h1>
+            </div>
+            <div class="features-colums">
+              <div class="features-col">
+                <h5 class="features-col-title">уникальность</h5>
+                <p class="features-col-text">Создан для вашего комфортного отдыха</p>
+                <ul class="featires-col-list">
+                  <li><span>Кофе/чай</span></li>
+                  <li><span>Шкаф (5 кг)</span></li>
+                  <li><span>Рабочее место</span></li>
+                </ul>
+              </div>
+              <div class="features-col">
+                <h5 class="features-col-title col-title-2">премиум-класс</h5>
+                <p class="features-col-text">Для любителей хороших впечатлений</p>
+                <ul class="featires-col-list">
+                  <li><span>Обед+кофе </span></li>
+                  <li><span>Шкаф (10 кг)</span></li>
+                  <li><span>Детское кресло</span></li>
+                </ul>
+              </div>
+              <div class="features-col">
+                <h5 class="features-col-title col-title-3">лакшери-стулья</h5>
+                <p class="features-col-text">Всё самое лучшее и незабываемое</p>
+                <ul class="featires-col-list">
+                  <li><span>Джакузи</span></li>
+                  <li><span>Шкаф (15 кг)</span></li>
+                  <li><span>Табуретка</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <section class="news">
+              <div class="features__info">
+                <h2 class="features__title">Последние новости</h2>
+              </div>
+              <div class="news-colums">
+                <div class="news-col">
+                  <div class="news-col-avatar">
+                    <img c src="images/contents_img/reviews-img-1.jpg" alt="Avatar 1">
+                  </div>
+                  <div class="news-col-content">
+                    <p class="news-col-date">12.10.2016</p>
+                    <p class="news-col-title">Чёрная дыра скидок!</p>
+                    <p class="news-col-text">Ключевым технологическим партнером GrowUp является дата-центр Миран,
+                      расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в
+                      любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей.
+                    </p>
+                  </div>
+                </div>
+                <div class="news-col">
+                  <div class="news-col-avatar">
+                    <img c src="images/contents_img/reviews-img-2.jpg" alt="Avatar 2">
+                  </div>
+                  <div class="news-col-content">
+                    <p class="news-col-date">01.02.2016</p>
+                    <p class="news-col-title">Заражай друзей, получай призы!</p>
+                    <p class="news-col-text">Быть частью сообщества сильных, грамотных и увлеченных своим делом
+                      профессионалов - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся
+                      лекции, мастер-классы, встречи с инвесторами или менторами для резидентов.
+                    </p>
+                  </div>
+                </div>
+                <div class="news-col">
+                  <div class="news-col-avatar">
+                    <img c src="images/contents_img/reviews-img-3.jpg" alt="Avatar 3">
+                  </div>
+                  <div class="news-col-content">
+                    <p class="news-col-date">22.12.2015</p>
+                    <p class="news-col-title">Новое рабочее место для бизнесменов.</p>
+                    <p class="news-col-text">Для резидентов коворкинга оборудована не только рабочая зона, но и зона
+                      отдыха. Она включает в себя: кухонную зону и зону релакса.
+                      Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой,
+                      чайником, кофе машиной, посудой.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </section>
+        </div>
+
+      </div>
+
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_wrapper">
+          <p class="footer-title">
+            Сделано с любовью и старанием
+            на курсе «HTML + CSS» в LoftSchool.
+            Автор работы: Токошев Рамазан
+          </p>
+          <a href="#" class="header__logo">
+            <img src="images/logo.png" alt="Logo">
+          </a>
+          <nav class="footer__navbar">
+            <p>Наши социальные сети</p>
+            <ul>
+              <li><a class="footer__link" href="#"></a></li>
+              <li><a class="footer__link footer__link-2" href="#"></a></li>
+              <li><a class="footer__link footer__link-3" href="#"></a></li>
+              <li><a class="footer__link footer__link-4" href="#"></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
