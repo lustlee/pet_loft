@@ -1,0 +1,67 @@
+.footer {
+  color: #fff;
+  background: #2b2b40;
+  padding: 14px 0 16px;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  margin: 0;
+  font-size: 14px;
+  width: 270px;
+}
+
+.footer__navbar p {
+  margin: 0 0 10px;
+}
+
+.footer__navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer__link {
+  background: #d3d3d7 url(../../images/sprite-ic-social.png) -95px -3px no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.footer__link:hover {
+  background: #cb2376 url(../../images/sprite-ic-social.png) -95px -3px no-repeat;
+}
+
+.footer__link-2 {
+  background-position: -3px -6px;
+}
+
+.footer__link-2:hover {
+  background-position: -3px -6px;
+}
+
+.footer__link-3 {
+  background-position: -31px -4px;
+}
+
+.footer__link-3:hover {
+  background-position: -31px -4px;
+}
+
+.footer__link-4 {
+  background-position: -63px -4px;
+}
+
+.footer__link-4:hover {
+  background-position: -63px -4px;
+}
