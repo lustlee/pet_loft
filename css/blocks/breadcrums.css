@@ -1,0 +1,17 @@
+.breadcrumbs__items {
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.breadcrumbs__items--active .breadcrumbs__link {
+  color: #262424;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.breadcrumbs__link {
+  font-size: 14px;
+  color: #cb2376;
+  font-style: italic;
+  text-decoration: underline;
+}

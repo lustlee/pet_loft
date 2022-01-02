@@ -4,14 +4,18 @@
 }
 
 .features__aside-block {
-  width: 200px;
-  float: left;
+  min-width: 200px;
 }
 
 .features__navbar ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.features__navbar__items--active .features__navbar__links {
+  color: #262424;
+  text-decoration: underline;
 }
 
 .features__navbar__links {
@@ -60,7 +64,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .features-col {
@@ -112,4 +116,10 @@
 
 .featires-col-list span {
   color: #262424;
+}
+
+/* FEATURES-PRICER */
+
+.features-pricer {
+  padding-top: 45px;
 }
